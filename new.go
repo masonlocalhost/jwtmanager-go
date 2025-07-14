@@ -17,7 +17,7 @@ type Service struct {
 	issuer               string
 }
 
-func NewService(config *JWTConfig) (*Service, error) {
+func NewManagerService(config *JWTConfig) (*Service, error) {
 	service := &Service{
 		accessTokenDuration:  config.AccessTokenDuration,
 		refreshTokenDuration: config.RefreshTokenDuration,
