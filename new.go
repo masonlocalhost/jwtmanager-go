@@ -8,6 +8,7 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 )
 
+// Service
 type Service struct {
 	privateKey crypto.PrivateKey
 	publicKey  crypto.PublicKey
