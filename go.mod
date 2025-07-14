@@ -1,4 +1,4 @@
-module github.com/masonlocalhost/jwtmanager-go
+module github.com/masonlocalhost/jwtmanager-go/v2
 
 go 1.24.2
 
