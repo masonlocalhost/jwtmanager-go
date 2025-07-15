@@ -2,7 +2,6 @@ package jwtmanager
 
 import "github.com/golang-jwt/jwt/v5"
 
-// Identity
 type Identity struct {
 	Metadata  map[string]string `json:"metadata"`
 	ID        string            `json:"id"`
