@@ -1,4 +1,4 @@
-module gitlab.local/masonlocalhost/jwtmanager-go
+module gitlab.local/masonlocalhost/jwtmanager-go/v3
 
 go 1.24.2
 
